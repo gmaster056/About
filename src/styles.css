@@ -3,3 +3,189 @@
   margin: 0;
   padding: 0;
 }
+
+body {
+  font-family: "Poppins";
+  font-size: 14px;
+  line-height: 26px;
+  color: #fff;
+  background: #373b40;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+nav {
+  padding: 0 0 0 50px;
+  position: fixed;
+  left: 50px;
+  right: 50px;
+  top: 40px;
+  height: 80px;
+  z-index: 100;
+  background: #585d65;
+  border-radius: 50px;
+}
+
+.logo {
+  position: relative;
+  float: left;
+  width: 200px;
+  height: 80px;
+  display: flex;
+  font-size: 0;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #FFF;
+  align-items: center;
+}
+
+.logo a {
+  color: #FFF;
+}
+
+.logo-img {
+  margin-right: 30px;
+  width: auto;
+  height: auto;
+  max-width: 36px;
+  display: inline-block;
+}
+
+.logo-lnk {
+  font-size: 18px;
+  text-decoration: none;
+  display: inline-block;
+  max-width: 100px;
+}
+
+.download-cv-btn {
+  float: right;
+  margin-top: 8px;
+  margin-right: 8px;
+  padding: 0 35px;
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+  height: 64px;
+  line-height: 62px;
+  letter-spacing: 1px;
+  text-align: center;
+  font-size: 12px;
+  color: #FFF;
+  font-weight: 800;
+  text-decoration: none;
+  text-transform: uppercase;
+  background: transparent;
+  border: 1px solid #FFF;
+  border-radius: 64px;
+  cursor: pointer;
+}
+
+.top-menu {
+  margin-right: 50px;
+  float: right;
+}
+
+.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+ul li {
+  margin-left: 40px;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+
+li a {
+  osition: relative;
+  overflow: hidden;
+  display: block;
+  font-size: 12px;
+  color: #FFF;
+  line-height: 50px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.animated-button {
+  position: relative;
+  top: -1px;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 16px;
+}
+
+.menu .animated-button span {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  text-shadow: 0 16px 0 #68e0cf;
+}
+
+.menu .animated-button span:hover {
+  color: #68e0cf;
+}
+
+.menu .animated-button span {
+  min-width: 5px;
+  display: inline-block;
+  vertical-align: middle;
+  font-style: normal;
+  backface-visibility: hidden;
+  transition: transform 0.3s ease;
+  -moz-transition: transform 0.3s ease;
+  -webkit-transition: transform 0.3s ease;
+  -o-transition: transform 0.3s ease;
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
+}
+
+.download-cv-btn:hover .animated-button {
+  color: #68e0cf;
+}
+
+.download-cv-btn:hover {
+  border: 1px solid #68e0cf;
+}
+
+.sub-menu {
+  position: absolute;
+  left: 0;
+  top: 50px;
+  padding: 10px 0;
+  width: 190px;
+  height: auto;
+  display: block;
+  background: #585d65;
+  z-index: 50;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.sub-menu:before {
+  display: block;
+  content: '';
+  position: absolute;
+  left: 10px;
+  top: -12px;
+  border: 6px solid transparent;
+  border-bottom: 6px solid #585d65;
+}
+
+footer {
+  padding: 0;
+  position: fixed;
+  bottom: 40px;
+  right: 0;
+  width: 92px;
+  height: 1px;
+  z-index: 99;
+}
