@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LeftBlockComponent implements OnInit {
 
+  img = "../assets/img/BPwgykJaXPQ.jpg";
+
   constructor() { }
 
   ngOnInit(): void {

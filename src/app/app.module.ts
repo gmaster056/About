@@ -17,6 +17,7 @@ import { ReviewsComponent } from './reviews/reviews.component';
 import { ClientsComponent } from './clients/clients.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { ContactsComponent } from './contacts/contacts.component';
+import { RightMenuComponent } from './right-menu/right-menu.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { ContactsComponent } from './contacts/contacts.component';
     ReviewsComponent,
     ClientsComponent,
     PortfolioComponent,
-    ContactsComponent
+    ContactsComponent,
+    RightMenuComponent
   ],
   imports: [
     BrowserModule
